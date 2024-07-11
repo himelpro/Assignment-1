@@ -291,3 +291,10 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
+.text-center{
+  text-align: center;
+}
+.skill{
+  display:flex;
+  gap:24px;
+}
