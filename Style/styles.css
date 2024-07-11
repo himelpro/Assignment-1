@@ -11,6 +11,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 0 200px;
+
 }
 
 .awlad{
@@ -24,15 +25,11 @@ nav{
   }
 
 .dowloadCV{
-  position: absolute;
+
   width: 228px;
   height: 58px;
   left: 1046px;
   top: 38px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 17px 24px 17px 24px;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -49,28 +46,21 @@ nav{
 
 .first-section{
 background-image: url("../assets/Hero-bg.png");
-width: 1600px;
 height: 652px;
 
 justify-content: center;
 flex-direction: column;
 align-items: center;
+display:flex;
+padding:21px 221px 44px;
+margin:bottom;
+
 }
 .first-section-title{
   /* "In the near future, I hope to become a Developer." */
 position: static;
 width: 998px;
 height: 136px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
 order: 0;
 flex-grow: 0;
 margin: 24px 0px;
@@ -83,218 +73,14 @@ letter-spacing: 0%;
 text-align: center;
 }
 .first-section-para{
-  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
-position: static;
-width: 852px;
-height: 52px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 24px 0px;
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+  font-size: medium;
+  
 }
 .first-section-button{
-  /* Frame 2 */
-position: static;
-width: 208px;
-height: 66px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 21px 24px 21px 24px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 32px 0px;
-border-radius: 8px;
-
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-/* Frame 2 */
-position: static;
-width: 208px;
-height: 66px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 21px 24px 21px 24px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 32px 0px;
-
-
-
-}
-
-.why-title{
-  /* Why Web Development?? */
-position: static;
-width: 852px;
-height: 39px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 24px 0px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
-}
-.why-paragraph{
-  
-position: static;
-width: 852px;
-height: 52px;
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-opacity: 0.7;
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 24px 0px;
-
- color: rgb(13, 19, 33);
- font-family: Azeret Mono;
- font-size: 16px;
- font-weight: 400;
-  line-height: 26px;
- letter-spacing: 0%;
- text-align: center;
-}
-.willdo-title{
-position: static;
-width: 390px;
-height: 72px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 16px 0px;
-color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-}
-.willdo-para{
-position: static;
-width: 468px;
-height: 52px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 16px 0px;
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-}
-.willdo-button{
-position: static;
-width: 150px;
-height: 48px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 32px 0px;
-box-sizing: border-box;
-opacity: 0.7;
-position: static;
-width: 110px;
-height: 24px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-}
-.text-center{
   text-align: center;
 }
-.skill{
-  display:flex;
-  gap:24px;
+.connect-button{
+  padding: 21px 24px 21px 24px;
 }
+
+
